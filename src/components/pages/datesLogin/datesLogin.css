@@ -1,0 +1,10 @@
+.dtas{
+    margin-bottom: 20px;
+}
+
+.dtas .contra-sow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}

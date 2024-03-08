@@ -1,0 +1,18 @@
+.backAndflu{
+    background-color: rgba(237, 238, 246, 1);
+    width: 40%;
+    height: 100vh;
+}
+
+.opctionret{
+    padding: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opctionret a{
+    text-decoration: none;
+    color: black;
+}

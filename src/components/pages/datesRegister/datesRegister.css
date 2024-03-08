@@ -1,0 +1,14 @@
+/* .contDatesUsers{
+    background-color: darkorchid;
+} */
+
+.contDatesUsers{
+    margin-bottom: 20px;
+}
+
+.contDatesUsers .contra-sow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}

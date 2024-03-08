@@ -1,0 +1,14 @@
+.fond-ing{
+    background-image: url("destock.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fond-ing .dats-ing{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
