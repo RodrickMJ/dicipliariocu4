@@ -1,6 +1,7 @@
 .fond-contd{
     background-image: url("image 2.jpg");
-    width: 480px;
+    width: 495px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;

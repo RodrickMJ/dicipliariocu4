@@ -1,9 +1,16 @@
 .dantes{
     display: flex;
     justify-content: space-between;
+    /* background-color: darkcyan; */
 }
 
 .contrgsm{
     width: 50%;
-    padding: 12px;    
+    /* background-color: darkcyan; */
+    /* padding: 15px;
+    margin: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
 }

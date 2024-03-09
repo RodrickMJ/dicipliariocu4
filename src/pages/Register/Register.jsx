@@ -7,7 +7,7 @@ function Register() {
   return (
     <>
       <div className='dantes'>
-        <ReturnRegister />
+        <ReturnRegister/>
         <div className='contrgsm'>
           <FormRegister />
         </div>

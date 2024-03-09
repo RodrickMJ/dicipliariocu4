@@ -28,7 +28,7 @@ function FormRegister() {
 
                     <div className='count-dirc'>
                         <Pharagraps customClass="phar.cont" text="¿Ya tiene una cuenta? " />
-                        <a href="#"><Pharagraps customClass text="Iniciar sesión" /></a>
+                        <a href="/login"><Pharagraps customClass text="Iniciar sesión" /></a>
                     </div>
                 </div>
             </div>

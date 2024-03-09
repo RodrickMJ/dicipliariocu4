@@ -7,7 +7,7 @@ function ReturnRegister() {
             <div className='backAndflu'>
                 <div className='opctionret'>
                     <img src="#" alt="icon" />
-                    <a href=""><p>Back to Main</p></a>
+                    <a href="/"><p>Back to Main</p></a>
                 </div>
             </div>
         </>

@@ -9,6 +9,6 @@
 .fond-ing .dats-ing{
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
