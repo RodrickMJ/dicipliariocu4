@@ -1,5 +1,6 @@
 .backAndflu{
     background-color: rgba(237, 238, 246, 1);
+    /* background: linear-gradient(to bottom, #5DB9C9, #000000); */
     width: 40%;
     height: 100vh;
 }

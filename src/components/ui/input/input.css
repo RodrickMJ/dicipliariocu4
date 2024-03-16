@@ -6,3 +6,12 @@
     font-size: 1rem;
     margin-bottom: 10px;
 }
+
+.searchHom{
+    width: 350px;
+    height: 35px;
+    font-size: 1rem;
+    border: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}

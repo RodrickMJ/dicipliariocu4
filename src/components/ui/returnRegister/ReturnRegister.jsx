@@ -1,12 +1,13 @@
 import React from 'react'
 import './returnRegister.css'
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 function ReturnRegister() {
     return (
         <>
             <div className='backAndflu'>
                 <div className='opctionret'>
-                    <img src="#" alt="icon" />
+                <AiOutlineArrowLeft />
                     <a href="/"><p>Back to Main</p></a>
                 </div>
             </div>
