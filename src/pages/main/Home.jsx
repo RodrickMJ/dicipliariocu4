@@ -6,12 +6,7 @@ function Home() {
   return (
     <>
       <NavHeader/>
-        <div>
-
-            <a href="/register">register</a>
-            <br />
-            <a href="/login">login</a>
-        </div>
+        
     </>
   )
 }
