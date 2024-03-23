@@ -7,7 +7,11 @@ function Home() {
   return (
     <>
       <NavHeader/>
+<<<<<<< HEAD
       <Draft/>
+=======
+        
+>>>>>>> bf12e035d5ca80e4f717f4b730b9f882f17feb83
     </>
   )
 }
