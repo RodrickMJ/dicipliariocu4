@@ -24,13 +24,13 @@ function NavHeader() {
 
                     <div className='navinterc'>
                         <ul>
-                            <li><a href="#">
+                            <li><a href="/login">
                                 <div className='ternarch'>
                                     <Titles customClass="usernav" text="Usuario" />
                                     <Pharagraps customClass="datsnavuser" text="Informacion del usuario" />
                                 </div>
                             </a></li>
-                            <li><a href="#"><AiOutlineShoppingCart size={35} /></a></li>
+                            <li><a href="#"><AiOutlineShoppingCart size={40} /></a></li>
                             <li><a href="#"><AiOutlineMenu size={35} /></a></li>
                         </ul>
                     </div>

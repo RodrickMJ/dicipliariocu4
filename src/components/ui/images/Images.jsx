@@ -1,9 +1,10 @@
 import React from 'react'
+import './images.css'
 
-function Images({image}) {
+function Images({image,customClas}) {
   return (
     <>
-        <img src={image} alt="picture" />
+        <img className={customClas} src={image} alt="picture" />
     </>
   )
 }

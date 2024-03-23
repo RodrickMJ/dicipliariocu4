@@ -1,8 +1,10 @@
 .fond-ing{
-    background-image: url("destock.png");
+    /* background-image: url("destock.png"); */
+    background: linear-gradient(to right, #5DB9C9, #000000);
     background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:flex-start ;
     align-items: center;
     height: 100vh;
 }
@@ -12,4 +14,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.opctionretlog{
+    padding: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1250px;
+}
+
+.opctionretlog a{
+    text-decoration: none;
+    color: black;
 }

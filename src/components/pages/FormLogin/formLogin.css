@@ -1,11 +1,12 @@
 .cont-form{
-    /* background-color: rgba(235, 235, 235, 1); */
-    background: linear-gradient(to right, #a8cae1, #daaca7);
+    background-color: rgba(235, 235, 235, 1);
+    /* background: linear-gradient(to right, #a8cae1, #daaca7); */
     width: 500px;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 .cont-form .contd{

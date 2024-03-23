@@ -3,7 +3,12 @@
 }
 
 .datsnavuser{
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+.infodraft{
+    font-size: 1.2rem;
+    margin-top: 0;
 }
