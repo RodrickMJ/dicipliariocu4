@@ -11,7 +11,7 @@
     width: 350px;
     height: 35px;
     font-size: 1rem;
-    border: 0px;
+    border: 1px solid rgba(143, 79, 79, 1);
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }

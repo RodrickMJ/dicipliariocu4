@@ -15,7 +15,7 @@ function NavHeader() {
             <div className='header-nav'>
                 <div className='contnavdet'>
                     <div className='searchandlogs'>
-                        <Images src="#" />
+                        <Images customClas="logoImg" image="log.jpeg" />
                         <div className='searchcont'>
                             <Inputs customClass="searchHom" type="text" placeholder="Buscar" />
                             <Buttons customClass="iconseachrHome" content={<AiOutlineSearch size={20}/>} />

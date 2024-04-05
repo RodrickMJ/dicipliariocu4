@@ -19,8 +19,9 @@
 .iconseachrHome{
     background-color: rgba(55, 125, 255, 1);
     width: 45px;
-    height: 37px;
-    border: none;
+    height: 40px;
+    border: 2px solid rgba(143, 79, 79, 1);
+    border-left: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
@@ -28,15 +29,4 @@
 
 .iconseachrHome:hover{
     background-color: rgb(136, 163, 187);
-}
-
-.butfras{
-    background-color: rgba(55, 125, 255, 1);
-    width: 25%;
-    height: 40px;
-    text-align: center;
-    font-size: 1.1rem;
-    color: white;
-    border-radius: 5px;
-    border: none;
 }

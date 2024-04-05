@@ -1,0 +1,29 @@
+.contsliremon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 20px;
+}
+
+.contsliremon .sltc {
+    width: 85%;
+}
+
+.sltc button{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.sltc button:before{
+    font-size: 40px;
+    color: black;
+}
+
+.slick-list{
+    width: 95%;
+    left: 43px;
+}
+
+

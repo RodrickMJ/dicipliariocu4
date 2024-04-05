@@ -1,0 +1,10 @@
+.desct{
+    border: 1px solid rgb(32, 93, 249);
+    width: 285px;
+    height: 500px;
+}
+
+.desct img{
+    width: 100%;
+    height: 370px;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import './categorias.css'
+import './cadCate.css'
 
-function Catergorias({srcimg,dateuser,titleprenda}) {
+function CadCate({customClass,srcimg,dateuser,titleprenda}) {
   return (
     <>
-    <div>
+    <div className={customClass}>
         <img src={srcimg} alt="icon" />
         <p>{dateuser}</p>
         <h4>{titleprenda}</h4>
@@ -13,4 +13,4 @@ function Catergorias({srcimg,dateuser,titleprenda}) {
   )
 }
 
-export default Catergorias
+export default CadCate
