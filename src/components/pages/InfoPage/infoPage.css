@@ -1,0 +1,22 @@
+.contInftp{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contInftp .clasinfoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+}
+
+.contInftp .clasimpa{
+    width: 50%;
+    height: 80%;
+}

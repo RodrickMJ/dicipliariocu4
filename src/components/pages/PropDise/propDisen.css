@@ -1,0 +1,25 @@
+.procont{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    height: 50vh;
+}
+
+.procont .ipropc{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.procont .cpropct{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

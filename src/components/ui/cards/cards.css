@@ -2,9 +2,68 @@
     border: 1px solid rgb(32, 93, 249);
     width: 285px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .desct img{
     width: 100%;
     height: 370px;
+}
+
+.desct button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgba(55, 125, 255, 1);
+    color: black;
+}
+
+.desct button:hover{
+    opacity: 40%;
+}
+
+.desct .dscc{   
+    margin: 5px;
+}
+
+.desct .dscc h4{
+    margin-top: 5px;
+    width: 100%;
+    height: 27px;
+}
+/* 
+diseño ofertas */
+
+.ofertdc{
+    border: 1px solid rgb(249, 32, 32);
+    width: 285px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertdc img{
+    width: 100%;
+    height: 370px;
+}
+
+.ofertdc button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgba(55, 125, 255, 1);
+    color: black;
+}
+
+.ofertdc button:hover{
+    opacity: 40%;
+}
+
+.ofertdc .dscc{   
+    margin: 5px;
+}
+
+.ofertdc .dscc h4{
+    margin-top: 5px;
+    width: 100%;
+    height: 27px;
 }

@@ -6,14 +6,14 @@ function Cards({customClass,imgPro,nombrePro,precioPro}) {
     return (
         <>
             <div className={customClass}>
-                <div>
+                <div className='refco'>
                     <img src={imgPro} alt="imagen" />
                     {/* <AiOutlineHeart /> */}
                 </div>
-                <div>
+                <div className='dscc'>
                     <h4>{nombrePro}</h4>
                     <p>$ {precioPro} mnx</p>
-                    <button>Ver Producto</button>
+                    <button><b>Ver Producto</b></button>
                 </div>
             </div>
         </>

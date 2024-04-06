@@ -2,8 +2,16 @@
     background-color: rgba(229, 241, 255, 1);
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 45px;
-    height: 100vh;
+    height: 230vh;
+}
+
+.sectionCat .infoandseding{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
 }

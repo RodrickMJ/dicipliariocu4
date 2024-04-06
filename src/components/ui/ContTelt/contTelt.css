@@ -34,3 +34,59 @@
     background-color: rgb(99, 148, 240);
    opacity: 90%;
 }
+
+
+.propdisco{
+    width: 80%;
+}
+
+.propdisco h5{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.propdisco p{
+    color: rgba(133, 138, 143, 1);
+    font-size: 1.1rem;
+}
+
+.propdisco button{
+    background-color: rgba(57, 126, 255, 1);
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    width: 45%;
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.propdisco button:hover{
+    opacity: 40%;
+}
+
+.tamcontinfp{
+    width: 85%;
+    height: 100%;
+    text-align: center;
+}
+
+.tamcontinfp h5{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.tamcontinfp p{
+    font-size: 1.2rem;
+    color: rgba(133, 138, 143, 1);
+    text-align: justify;
+}
+
+.tamcontinfp button{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: rgba(57, 126, 255, 1);
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+}

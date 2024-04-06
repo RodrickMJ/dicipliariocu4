@@ -1,0 +1,8 @@
+.disfoo{
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.secofr{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: start;
+    width: 90%;
+    height: 82vh;
+    border-radius: 20px;
+}
+
+.secofr .titleofrt{
+    width: 20%;
+    margin: 0px 0px 0px 40px;
+    /* margin: 0px 0px 0px 0px; arriba derecha abajo izquierda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secofr .cardsofert{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
