@@ -5,7 +5,9 @@ import Cards from '../../ui/cards/Cards'
 import Titles from '../../ui/titles/Titles'
 import Dirc from '../../ui/Dirc/Dirc'
 
+
 function SectionDes() {
+
   return (
     <>
       <div className='contsdes'>
@@ -14,9 +16,9 @@ function SectionDes() {
           <Dirc routName="#" textCont="Ver mas" customClass="direc-desc" />
         </div>
         <div className='cards-dest'>
-          {productRec.map((produc) => (
+          {productRec.slice(0, 4).map((produc) => (
             <div key={produc.id}>
-              <Cards customClass="desct"
+              <Cards customClass="desct" IdProduct={produc.id}
                 imgPro={produc.imgaePro}
                 nombrePro={produc.titulo}
                 precioPro={produc.precio}

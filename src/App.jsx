@@ -4,6 +4,7 @@ import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import Home from './pages/main/Home';
 import Perfil from './pages/Profile/Perfil';
+import InfoProduc from './pages/InfoProduc/InfoProduc';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/perfil' element={<Perfil/> } />
+          <Route path='/vProducto/:id' element={<InfoProduc/> } />
         </Routes>
       </Router>
     </>

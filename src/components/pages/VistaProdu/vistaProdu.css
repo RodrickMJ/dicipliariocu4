@@ -1,0 +1,47 @@
+.slider-container {
+    display: flex;
+    width: 50%;
+}
+
+.slider-container button{
+    visibility: hidden;
+}
+
+.xd{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;
+}
+
+.xd2{
+    top: 0px;
+    width: 10%;
+    height: 80vh;
+    margin-left: 20%;
+}
+
+.xd2 img{
+    width: 480px;
+    height: 90vh;
+}
+
+.slider-container ul{
+    display: flex;
+    width: 20%;
+    top: 0px;
+    height: 90vh;
+}
+
+.slider-container li{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.slider-container li img{
+    width: 120px;
+    height: 120px;
+}

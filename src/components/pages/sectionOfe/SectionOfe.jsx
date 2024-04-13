@@ -13,10 +13,21 @@ function SectionOfe() {
           <Titles customClass="ofert-til" text="Ofertas" />
           <Dirc routName="#" textCont="Ver mas" customClass="direc-ofert" />
         </div>
-        <div className='cardsofert'>
+        {/* <div className='cardsofert'>
           {productRec.map((produc) => (
             <div key={produc.id}>
               <Cards customClass="ofertdc"
+                imgPro={produc.imgaePro}
+                nombrePro={produc.titulo}
+                precioPro={produc.precio}
+              />
+            </div>
+          ))}
+        </div> */}
+        <div className='cardsofert'>
+          {productRec.slice(0, 4).map((produc) => (
+            <div key={produc.id}>
+              <Cards customClass="ofertdc" IdProduct={produc.id}
                 imgPro={produc.imgaePro}
                 nombrePro={produc.titulo}
                 precioPro={produc.precio}

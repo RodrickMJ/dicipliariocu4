@@ -7,3 +7,13 @@
     margin: 0;
     padding: 0;
 }
+
+.contRdUser{
+    margin: 10px 0px 0px 15px; 
+    /* arriba derecha abajo izquierda */
+}
+
+.price-vizt-prodc{
+    font-size: 1.4rem;
+    margin: 10px;
+}

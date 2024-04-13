@@ -20,3 +20,45 @@
 .ofert-til{
     margin-right: 20px;
 }
+
+.nameUserF{
+    font-size: 1.6rem;
+}
+
+.directionUserf{
+    font-size: 1.4rem;
+}
+
+.titlecontF{
+    font-size: 1.4rem;
+}
+
+.Titulo-Prodjuct-vistz{
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+.titulo-des-produz{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.titulo-des-produzCo{
+    font-size: 1.2rem;
+    margin: 10px;
+    background: linear-gradient(to right, 
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-title{
+    font-size: 1.4rem;
+}

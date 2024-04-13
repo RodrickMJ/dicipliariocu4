@@ -1,0 +1,26 @@
+.desProV{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desProV .movDesF{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top: 1px solid black;
+}
+
+.desProV .movDesF1{
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.desProV .movDesF2{
+    width: 100%;
+    border-top: 1px solid black;
+}

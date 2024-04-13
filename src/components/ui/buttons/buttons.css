@@ -30,3 +30,61 @@
 .iconseachrHome:hover{
     background-color: rgb(136, 163, 187);
 }
+
+.AgregarProduct{
+    background-color: rgba(55, 125, 255, 1);
+    color: white;
+    font-size: 1.2rem;
+    width: 20%;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.AgregarProduct:hover{
+    opacity: 10%;
+    cursor: pointer;
+}
+
+.submit-buttonA{
+    background-color: rgba(55, 125, 255, 1);
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 25px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.submit-buttonA{
+    background-color: rgba(55, 125, 255, 1);
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 25px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.submit-buttonA:hover{
+    opacity: 10%;
+}
+
+.submit-buttonC{
+    background-color: rgb(249, 32, 32);
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 25px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.submit-buttonC:hover{
+    opacity: 10%;
+}

@@ -15,7 +15,7 @@ function NavHeader() {
             <div className='header-nav'>
                 <div className='contnavdet'>
                     <div className='searchandlogs'>
-                        <Images customClas="logoImg" image="log.jpeg" />
+                        <a href="/"><Images customClas="logoImg" image="/log.jpeg" /></a>
                         <div className='searchcont'>
                             <Inputs customClass="searchHom" type="text" placeholder="Buscar" />
                             <Buttons customClass="iconseachrHome" content={<AiOutlineSearch size={20}/>} />
@@ -24,7 +24,7 @@ function NavHeader() {
 
                     <div className='navinterc'>
                         <ul>
-                            <li><a href="/perfil">
+                            <li><a href="/perfil ">
                                 <div className='ternarch'>
                                     <Titles customClass="usernav" text="Usuario" />
                                     <Pharagraps customClass="datsnavuser" text="Informacion del usuario" />

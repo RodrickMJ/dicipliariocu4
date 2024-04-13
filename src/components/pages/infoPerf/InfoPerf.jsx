@@ -6,7 +6,6 @@ import Pharagraps from '../../ui/pharagraps/Pharagraps'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
-import { FaWhatsapp } from "react-icons/fa";
 import { PerfilPru } from '../../../utils/PerfilPru'
 import { LuPhoneCall } from "react-icons/lu";
 
@@ -20,17 +19,19 @@ function InfoPerf() {
                 <Images customClas="imgPerUsr" image={perfil.imgPer} />
             </div>
             <div className='datesPerf'>
-                <Titles customClass="" text={perfil.nombre} />
+                <Titles customClass="nameUserF" text={perfil.nombre} />
+                <div className='dircUseCont' >
+                    <Titles customClass="directionUserf" text="Direccion" />
                 <Pharagraps customClass="" text={perfil.direccion} />
+                </div>
             </div>
-            <div className='contperf'>
-                <Titles customClass="" text="Contactos"/>
+            <div className='contperfCR'>
+                <Titles customClass="titlecontF" text="Contactos"/>
                 <ul>
-                    <li><LuPhoneCall /><Pharagraps customClass="" text={perfil.contacto}/></li>
-                    <li><a href="#"><FaXTwitter /></a></li>
-                    <li><a href="#"><FaFacebookF /></a></li>
-                    <li><a href="#"><IoLogoInstagram /></a></li>
-                    <li><a href="#"><FaWhatsapp /></a></li>
+                    <li><LuPhoneCall size={20} /><Pharagraps customClass="contRdUser" text={perfil.contacto}/></li>
+                    <li><a href="#"><FaXTwitter size={20} /> <Pharagraps customClass="contRdUser" text={perfil.contacto}/> </a></li>
+                    <li><a href="#"><FaFacebookF size={20} /> <Pharagraps customClass="contRdUser" text={perfil.contacto}/> </a></li>
+                    <li><a href="#"><IoLogoInstagram size={20} /> <Pharagraps customClass="contRdUser" text={perfil.contacto}/> </a></li>
                 </ul>
             </div>
         </div>
@@ -39,3 +40,7 @@ function InfoPerf() {
 }
 
 export default InfoPerf
+
+// 1095342397650
+
+// strange-team-420010
