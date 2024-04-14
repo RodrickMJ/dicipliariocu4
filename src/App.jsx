@@ -5,6 +5,7 @@ import Register from './pages/Register/Register'
 import Home from './pages/main/Home';
 import Perfil from './pages/Profile/Perfil';
 import InfoProduc from './pages/InfoProduc/InfoProduc';
+import SiteProduct from './pages/SiteProduct/SiteProduct';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/register' element={<Register />} />
           <Route path='/perfil' element={<Perfil/> } />
           <Route path='/vProducto/:id' element={<InfoProduc/> } />
+          <Route path='/productos' element ={<SiteProduct/>} />
         </Routes>
       </Router>
     </>

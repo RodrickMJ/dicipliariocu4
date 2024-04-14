@@ -106,13 +106,21 @@ diseño ofertas */
 .cardsPerfDis .visUsProd .acPro{
     border:2px solid rgba(45, 202, 140, 1);
     border-radius: 5px;
-    
+    cursor: pointer;
+}
+
+.cardsPerfDis .visUsProd .acPro:hover{
+    opacity: 40%;
 }
 
 .cardsPerfDis .visUsProd .elPro{
     border:2px solid rgb(249, 32, 32);
-    border-radius: 5px;
-    
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.cardsPerfDis .visUsProd .elPro:hover{
+    opacity: 40%;
 }
 
 .cardsPerfDis img{
@@ -136,6 +144,60 @@ diseño ofertas */
 }
 
 .cardsPerfDis .dscc h4{
+    margin-top: 5px;
+    width: 100%;
+    height: 27px;
+}
+
+/* dadslmas */
+
+.cardsfiltDis{
+    border: 1px solid rgb(32, 93, 249);
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom:20px;
+}
+
+.cardsfiltDis .visUsProd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsfiltDis .visUsProd .acPro{
+    visibility: hidden;
+    
+}
+
+.cardsfiltDis .visUsProd .elPro{
+   visibility: hidden;
+    
+}
+
+.cardsfiltDis img{
+    width: 100%;
+    height: 370px;
+}
+
+.cardsfiltDis .vProc{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgba(55, 125, 255, 1);
+    color: black;
+}
+
+.cardsfiltDis .vProc:hover{
+    opacity: 40%;
+}
+
+.cardsfiltDis .dscc{   
+    margin: 5px;
+}
+
+.cardsfiltDis .dscc h4{
     margin-top: 5px;
     width: 100%;
     height: 27px;

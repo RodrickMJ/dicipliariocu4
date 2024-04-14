@@ -13,7 +13,7 @@ function SectionDes() {
       <div className='contsdes'>
         <div className='title-dest'>
           <Titles customClass="desc-til" text="Destacados" />
-          <Dirc routName="#" textCont="Ver mas" customClass="direc-desc" />
+          <Dirc routName="/productos" textCont="Ver mas" customClass="direc-desc" />
         </div>
         <div className='cards-dest'>
           {productRec.slice(0, 4).map((produc) => (

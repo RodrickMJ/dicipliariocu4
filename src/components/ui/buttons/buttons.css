@@ -17,13 +17,11 @@
 }
 
 .iconseachrHome{
-    background-color: rgba(55, 125, 255, 1);
+    background-color: rgb(255, 255, 255);
     width: 45px;
-    height: 40px;
-    border: 2px solid rgba(143, 79, 79, 1);
-    border-left: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height: 39px;
+    border: none;
+    border-bottom: 2px solid rgba(143, 79, 79, 1);
     cursor: pointer;
 }
 

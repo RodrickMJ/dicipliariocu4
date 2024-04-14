@@ -1,0 +1,29 @@
+.filcont{
+    /* border-right: 2px solid blac; */
+    width: 224px;
+    display: block;
+    /* margin-left: 30px; */
+    padding-left: var(--spacing-l0-px);
+}
+
+.filcont .contflildis{
+    /* background-color: red; */
+    padding: 0px 10px 0px 10px;
+    /* arriba / derecha / abajo / izquierda */
+}
+
+.filcont ul{
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+
+.filcont ul li .navcontfil{
+    width: 95%;
+}
+
+.filcont ul li .navcontfil a{
+    text-decoration: none;
+    color: black;
+}

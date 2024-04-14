@@ -1,0 +1,8 @@
+.productos-container-filt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-left: 2px solid black;
+}

@@ -1,0 +1,16 @@
+.movcontfli{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.movcontfli .c1filt{
+    width: 15%;
+}
+
+.movcontfli .c2flit{
+    width: 90%;
+}
