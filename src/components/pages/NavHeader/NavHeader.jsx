@@ -1,15 +1,17 @@
-import React from 'react'
-import './navHeader.css'
-import Buttons from '../../ui/buttons/Buttons'
-import Inputs from '../../ui/input/Inputs'
-import Images from '../../ui/images/Images'
-import Titles from '../../ui/titles/Titles'
-import Pharagraps from '../../ui/pharagraps/Pharagraps'
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineSearch } from "react-icons/ai";
+import React from 'react';
+import { AiOutlineMenu, AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
+// import { useAuth } from '../../context/AuthContext'; // Importa el hook useAuth
+import Buttons from '../../ui/buttons/Buttons';
+import Images from '../../ui/images/Images';
+import Inputs from '../../ui/input/Inputs';
+import Pharagraps from '../../ui/pharagraps/Pharagraps';
+import Titles from '../../ui/titles/Titles';
+import './navHeader.css';
 
 function NavHeader() {
+    // const { user } = useAuth(); 
+    // const loginRoute = user ? '/perfil' : '/login';
+
     return (
         <>
             <div className='header-nav'>
@@ -24,20 +26,20 @@ function NavHeader() {
 
                     <div className='navinterc'>
                         <ul>
-                            <li><a href="/perfil ">
+                            <li><a href={"/login"}>
                                 <div className='ternarch'>
                                     <Titles customClass="usernav" text="Usuario" />
                                     <Pharagraps customClass="datsnavuser" text="Informacion del usuario" />
                                 </div>
                             </a></li>
-                            <li><a href="#"><AiOutlineShoppingCart size={40} /></a></li>
+                            <li className='tipecar'><a href="#"><AiOutlineShoppingCart size={40} /></a></li>
                             <li><a href="#"><AiOutlineMenu size={35} /></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default NavHeader
+export default NavHeader;

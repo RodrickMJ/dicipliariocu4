@@ -1,9 +1,9 @@
 import React from 'react'
-import './perfil.css'
-import NavHeader from '../../components/pages/NavHeader/NavHeader'
-import InfoPerf from '../../components/pages/infoPerf/InfoPerf'
-import PerProcVis from '../../components/pages/PerProcVis/PerProcVis'
 import AllProdUs from '../../components/pages/AllProdUs/AllProdUs'
+import NavHeader from '../../components/pages/NavHeader/NavHeader'
+import PerProcVis from '../../components/pages/PerProcVis/PerProcVis'
+import InfoPerf from '../../components/pages/infoPerf/InfoPerf'
+import './perfil.css'
 
 function Perfil() {
   return (

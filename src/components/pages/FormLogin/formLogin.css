@@ -30,3 +30,8 @@
 .count-dirc{
     display: flex;
 }
+
+.selectrol{
+    display: flex;
+    align-items: center;
+}

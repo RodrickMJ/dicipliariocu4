@@ -3,12 +3,9 @@ import './pharagraps.css'
 
 function Pharagraps({text,customClass}) {
   return (
-    <>
-        <p className={customClass}>
-            {text}
-        </p>
-    </>
-  )
+  
+        <p className={customClass}>{text}</p>
+  );
 }
 
-export default Pharagraps
+export default Pharagraps;

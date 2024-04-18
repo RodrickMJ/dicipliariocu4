@@ -1,11 +1,11 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from './pages/Login/Login'
-import Register from './pages/Register/Register'
-import Home from './pages/main/Home';
-import Perfil from './pages/Profile/Perfil';
+import React from 'react';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import InfoProduc from './pages/InfoProduc/InfoProduc';
+import Login from './pages/Login/Login';
+import Perfil from './pages/Profile/Perfil';
+import Register from './pages/Register/Register';
 import SiteProduct from './pages/SiteProduct/SiteProduct';
+import Home from './pages/main/Home';
 
 function App() {
   return (
