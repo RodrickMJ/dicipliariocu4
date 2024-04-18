@@ -1,4 +1,4 @@
-.fond-ing{
+.fond-inglo{
     /* background-image: url("destock.png"); */
     background: linear-gradient(to right, #5DB9C9, #000000);
     background-size: cover;
@@ -9,7 +9,7 @@
     height: 100vh;
 }
 
-.fond-ing .dats-ing{
+.fond-inglo .dats-ing{
     width: 80%;
     display: flex;
     justify-content: space-around;

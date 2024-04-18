@@ -5,7 +5,7 @@ import './imgVistas.css'
 function ImgVistas() {
   return (
     <>
-    <div className='fond-contd'>
+    <div className='fond-contdjs'>
         <Images  image="image 1.jpg"  />
     </div>
     </>

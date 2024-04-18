@@ -7,7 +7,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 function Login() {
   return (
     <>
-      <div className='fond-ing'>
+      <div className='fond-inglo'>
         <div className='opctionretlog'>
           <AiOutlineArrowLeft />
           <a href="/"><p>Back to Main</p></a>
