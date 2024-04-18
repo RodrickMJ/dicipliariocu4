@@ -24,7 +24,7 @@ function NavHeader() {
 
                     <div className='navinterc'>
                         <ul>
-                            <li><a href="/perfil ">
+                            <li><a href="/login">
                                 <div className='ternarch'>
                                     <Titles customClass="usernav" text="Usuario" />
                                     <Pharagraps customClass="datsnavuser" text="Informacion del usuario" />

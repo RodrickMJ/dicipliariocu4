@@ -1,4 +1,4 @@
-.fond-contd{
+.fond-contdjs{
     background-image: url("image 2.jpg");
     width: 495px;
     height: 600px;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.fond-contd img{
+.fond-contdjs img{
     border-radius: 5px;
     width: 330px;
 }

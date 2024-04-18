@@ -1,4 +1,4 @@
-.cont-form{
+.cont-formxd{
     background-color: rgba(235, 235, 235, 1);
     /* background: linear-gradient(to right, #a8cae1, #daaca7); */
     width: 500px;
@@ -9,7 +9,7 @@
     border: 1px solid black;
 }
 
-.cont-form .contd{
+.cont-formxd .contdxd{
     width: 80%;
     display: flex;
     flex-direction: column;
