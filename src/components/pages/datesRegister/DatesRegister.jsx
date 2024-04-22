@@ -28,7 +28,7 @@ function DatesRegister({ formData, onInputChange, onCheckboxChange }) {
                 />
                 <div className='contra-sow'>
                     <Label content="Contraseña" />
-                    <Spam text="Mostrar contraseña" />
+                    <Spam text="" />
                 </div>
                 <Inputs
                     customClass="loginp"

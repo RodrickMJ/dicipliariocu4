@@ -84,7 +84,19 @@ function PerProcVis() {
                             <Inputs type="text" placeholder="Nombre" customClass="input-field" value={nombre} onChange={(e) => setNombre(e.target.value)} />
                         </div>
                         <div className='mozcont'>
-                            <Titles text="Imagen" customClass="input-title" />
+                            <Titles text="Imagen 1" customClass="input-title" />
+                            <Inputs type="file" placeholder="Seleccionar imagen" customClass="input-field" onChange={(e) => setImagen(e.target.files[0])} />
+                        </div>
+                        <div className='mozcont'>
+                            <Titles text="Imagen 2" customClass="input-title" />
+                            <Inputs type="file" placeholder="Seleccionar imagen" customClass="input-field" onChange={(e) => setImagen(e.target.files[0])} />
+                        </div>
+                        <div className='mozcont'>
+                            <Titles text="Imagen 3" customClass="input-title" />
+                            <Inputs type="file" placeholder="Seleccionar imagen" customClass="input-field" onChange={(e) => setImagen(e.target.files[0])} />
+                        </div>
+                        <div className='mozcont'>
+                            <Titles text="Imagen 4" customClass="input-title" />
                             <Inputs type="file" placeholder="Seleccionar imagen" customClass="input-field" onChange={(e) => setImagen(e.target.files[0])} />
                         </div>
                         <div className='mozcont'>

@@ -3,14 +3,19 @@
     background: linear-gradient(to right, #5DB9C9, #000000);
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content:flex-start ;
+    justify-content:center;
     align-items: center;
     height: 100vh;
 }
 
-.fond-inglo .dats-ing{
-    width: 80%;
+.contreguserper{
+    margin-top: -15px;
+    width: 90%;
+}
+
+.dats-ing{
+    margin-top: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,10 +24,10 @@
 .opctionretlog{
     padding: 20px;
     width: 150px;
+    height: 5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 1250px;
 }
 
 .opctionretlog a{

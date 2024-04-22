@@ -1,10 +1,9 @@
-import React from 'react'
-import './pharagraps.css'
+import React from 'react';
+import './pharagraps.css';
 
-function Pharagraps({text,customClass}) {
+function Pharagraps({ text, customClass }) {
   return (
-  
-        <p className={customClass}>{text}</p>
+    <p className={customClass ? customClass : ''}>{text}</p>
   );
 }
 

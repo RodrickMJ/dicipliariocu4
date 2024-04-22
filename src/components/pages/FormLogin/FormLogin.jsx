@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Navigate } from 'react-router-dom'; // Importa el componente Navigate
 import Swal from 'sweetalert2';
 import Buttons from '../../ui/buttons/Buttons';
 import Pharagraps from '../../ui/pharagraps/Pharagraps';
@@ -12,7 +11,8 @@ function FormLogin() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [isLoggedIn, setIsLoggedIn] = useState(false); // Nuevo estado para verificar si el usuario ha iniciado sesión
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [userData, setUserData] = useState(null); // Estado para almacenar los datos del usuario registrado
 
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
@@ -23,7 +23,6 @@ function FormLogin() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'x-access-token': 'bezkoder-secret-key', 
                 },
                 body: JSON.stringify(credentials)
             });
@@ -33,7 +32,10 @@ function FormLogin() {
     
             const data = await response.json();
             localStorage.setItem('token', data.accessToken);
-            setIsLoggedIn(true); // Actualiza el estado para indicar que el usuario ha iniciado sesión
+            setIsLoggedIn(true);
+
+            // Guarda los datos del usuario en el estado
+            setUserData(data);
 
             Swal.fire({
                 position: "top-center",
@@ -45,17 +47,27 @@ function FormLogin() {
         } catch (error) {
             console.error('Error al enviar datos de inicio de sesión:', error);
             setError('Error al iniciar sesión, por favor intente nuevamente.');
+            Swal.fire({
+                position: "top-center",
+                icon: "error",
+                title: 'Error',
+                text: 'Ha ocurrido un error al iniciar la cuenta.',
+            });
         }
     };
 
-    // Si el usuario ha iniciado sesión, redirige a la página de perfil
-    if (isLoggedIn) {
-        return <Navigate to="/perfil" replace />;
+    if (isLoggedIn && userData) {
+        // Guarda el JSON de userData en localStorage
+        localStorage.setItem('userData', JSON.stringify(userData));
+        setTimeout(() => {
+            window.location.href = '/perfil';
+        }, 2000); 
+        return null;
     }
 
     return (    
-        <div className='cont-form'>
-            <div className='contd'>
+        <div className='cont-formxd'>
+            <div className='contdxd'>
                 <div>
                     <Titles customClass="login-texts" text="Iniciar sesión en On Script" />
                     <Pharagraps customClass="" text="Inicie sesión para gestionar su cuenta." />

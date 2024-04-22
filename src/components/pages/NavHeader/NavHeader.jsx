@@ -1,6 +1,6 @@
 import React from 'react';
-import { AiOutlineMenu, AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
-// import { useAuth } from '../../context/AuthContext'; // Importa el hook useAuth
+import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
+import { FaDoorOpen } from "react-icons/fa";
 import Buttons from '../../ui/buttons/Buttons';
 import Images from '../../ui/images/Images';
 import Inputs from '../../ui/input/Inputs';
@@ -9,8 +9,6 @@ import Titles from '../../ui/titles/Titles';
 import './navHeader.css';
 
 function NavHeader() {
-    // const { user } = useAuth(); 
-    // const loginRoute = user ? '/perfil' : '/login';
 
     return (
         <>
@@ -26,13 +24,13 @@ function NavHeader() {
 
                     <div className='navinterc'>
                         <ul>
-                            <li><a href={"/login"}>
+                            <li><a href={"/perfil"}>
                                 <div className='ternarch'>
                                     <Titles customClass="usernav" text="Usuario" />
                                     <Pharagraps customClass="datsnavuser" text="Informacion del usuario" />
                                 </div>
                             </a></li>
-                            <li className='tipecar'><a href="#"><AiOutlineShoppingCart size={40} /></a></li>
+                            <li className='tipecar'><a href="/login"><FaDoorOpen size={40} /></a></li>
                             <li><a href="#"><AiOutlineMenu size={35} /></a></li>
                         </ul>
                     </div>

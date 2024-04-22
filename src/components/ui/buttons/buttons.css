@@ -5,6 +5,11 @@
     height: 40px;
     color: white;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.directions:hover{
+    opacity: 40%;
 }
 
 .directions-1{

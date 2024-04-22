@@ -1,7 +1,7 @@
 export const productRec = [
     {
         id: 1,
-        imgaePro: "rectan.png",
+        imgaePro: "https://drive.google.com/thumbnail?id=1rur_6Q9GwXrEyra1bmvO9rjqHP1B7VoX",
         titulo: "Camisa de Botones de Lino",
         precio: 300.00
     },
